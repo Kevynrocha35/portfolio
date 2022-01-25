@@ -1,0 +1,23 @@
+* {
+    margin:0;
+}
+
+html {
+   min-vw: 100vw;
+   min-vh: 100vh;
+}
+
+body {
+   max-height:100%;
+   max-width: 100%;
+}
+
+.intro {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom:10px;
+   background-color: #aac222;
+}
