@@ -2,22 +2,18 @@
     margin:0;
 }
 
-html {
-   min-vw: 100vw;
-   min-vh: 100vh;
-}
-
-body {
-   max-height:100%;
-   max-width: 100%;
+html, body {
+   width: 100vw;
+   height: 100vh;
 }
 
 .intro {
    display:flex;
-   flex-direction: column;
+   flex-flow: column;
    align-items: center;
-   justify-content: space-between;
-   width: 100%;
+   justify-content: flex-start;
+   width: 1300px;
+   height: 300px;
    margin-bottom:10px;
    background-color: #aac222;
 }
